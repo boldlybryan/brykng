@@ -1,0 +1,89 @@
+---
+layout: default
+---
+<div class="home">
+  <section id="intro" class="hero hero--primary">
+    <div class="container">
+      <h1 class="title"><span class="subtitle">My name is </span>Bryan King</h1>
+      <p>{{content}}</p>
+    </div>
+  </section>
+  <section id="work">
+    <div class="container">
+      <h2>Work</h2>
+      <div class="grid">
+        {% for project in site.projects limit:2 %}
+          <article>
+            <a href="{{ project.url | relative_url }}">
+              <div class="project__info">
+                <div class="project__client">{{project.client}}</div>
+                <h3 class="project__name">{{ project.title | escape }}</h3>
+                <div class="project__year">{{project.year}}</div>
+              </div>
+              {% if project.thumbnail %}
+                <div class="project__thumbnail"><img src="{{project.thumbnail}}" alt=""></div>
+              {% elsif project.cover %}
+                <div class="project__thumbnail"><img src="{{project.cover}}" alt=""></div>
+              {% endif %}
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+      <a class="section__link" href="/work">view all work</a>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="grid">
+        <div>
+          <h2>About me</h2>
+          <p>
+            I'm a front-end web developer and designer with over 2 years of experience coding user interfaces and content authoring tools at Flagstar Bank. In my free time, I help small-to-medium sized companies solve their business problems with design and technology. These problems include: e-commerce stores, custom web apps, landing page design/development, and more!	
+          </p>
+          <a class="section__link" href="/about">read my story</a>
+        </div>
+        <aside>
+          <h3>Services</h3>
+          <ul>
+            <li>Web and UI Design</li>
+            <li>UX and Info Architecture</li>
+            <li>E-commerce</li>
+            <li>Wireframing & prototypes</li>
+            <li>Style guides</li>
+          </ul>
+          <a class="section__link" href="/services">see all services</a>
+        </aside>
+      </div>
+  </section>
+  <section id="blog">
+    <div class="container">
+      <h2>Blog</h2>
+      <div class="grid">
+        {% for post in site.posts limit:3 %}   
+          <article class="card">
+            <a class="post__link" href="{{ post.url | relative_url }}" title="Read this article">
+              {% if post.thumbnail %}
+                <img src="{{post.thumbnail}}" alt="">
+              {% elsif post.cover %}
+                <img src="{{post.cover}}" alt="">
+              {% endif %}
+              <div class="card__content"> 
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post__date">{{ post.date | date: date_format }}</span>
+                <h3 class="post__title">{{ post.title | escape }}</h3>
+                <p class="post__preview">{{post.preview}}</p>    
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+      <a class="section__link" href="/blog">browse all posts</a>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      {% include contact.html %}
+    </div>
+  </section>
+</div>

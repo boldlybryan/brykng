@@ -1,0 +1,21 @@
+$xs: 360px;
+$sm: 512px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+$navy: #101a48;
+$orange: #ff5200;
+$slate: #4d5069;
+$black: #2b2b2b;
+$silver: #e5e5e5;
+$white: #fafafa;
+
+$primary-color: $navy;
+$secondary-color: $slate;
+$accent-color: $orange;
+
+@import 'brykng/base';
+@import 'brykng/layout';
+@import 'brykng/typography';
+@import 'brykng/components';

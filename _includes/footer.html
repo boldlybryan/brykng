@@ -1,0 +1,25 @@
+<footer class="footer">
+  <div class="container flex">
+    <div class="footer__social">
+      {% if site.github_username %}
+        {% include icon-github.html username=site.github_username %}
+      {% endif %}
+
+      {% if site.twitter_username %}
+        {% include icon-twitter.html username=site.twitter_username %}
+      {% endif %}
+
+      {% if site.dribbble_username %}
+        {% include icon-dribbble.html username=site.dribbble_username %}
+      {% endif %}
+
+      {% if site.codepen_username %}
+        {% include icon-codepen.html username=site.codepen_username %}
+      {% endif %}
+    </div>    
+    <div class="footer__info">
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      <div>© 2017 Bryan King</div>
+    </div>
+  </div>
+</footer>

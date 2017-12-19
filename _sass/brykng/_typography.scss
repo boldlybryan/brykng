@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1, .title {
+	text-transform: uppercase;
+	margin: 0.125em 0;
+  font-size: 3em;
+  
+  .subtitle {
+    color: $orange;
+    display: block;
+    font-size: 0.5em;
+    text-transform: lowercase;
+  }
+
+}
+
+h2, .heading {
+  font-size: 2.0em;
+}
+
+h3, .subheading {
+  font-size: 1.67em;
+}
+
+h4 {
+  font-size: 1.33em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+article p {
+  margin-bottom: 1em;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: $accent-color;
+  border-bottom: 3px solid $accent-color;
+}

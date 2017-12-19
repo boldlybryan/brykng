@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="contact">
+    
+  <section id="intro" class="hero hero--primary">
+    <div class="container">
+      <h1 class="title">{{ page.title | escape }}</h1>
+      {% if page.subtitle %}
+        <p class="subtitle">{{page.subtitle}}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <div class="container">
+    {{ content }}
+    {% include contact.html %}
+  </div>
+
+</article>

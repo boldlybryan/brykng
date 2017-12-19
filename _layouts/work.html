@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div id="work">
+  <section id="intro" class="hero hero--primary">
+    <div class="container">
+      <h1 class="title">{{ page.title | escape }}</h1>
+      {% if page.subtitle %}
+        <p class="subtitle">{{page.subtitle}}</p>
+      {% endif %}
+    </div>
+  </section>
+  <article class="container">
+    <p>{{ content }}</p>
+    <div class="grid">
+        {% for project in site.projects limit:2 %}
+          <article>
+            <a href="{{ project.url | relative_url }}">
+              <div class="project__info">
+                <div class="project__client">{{project.client}}</div>
+                <h3 class="project__name">{{ project.title | escape }}</h3>
+                <div class="project__year">{{project.year}}</div>
+              </div>
+              {% if project.thumbnail %}
+                <div class="project__thumbnail"><img src="{{project.thumbnail}}" alt=""></div>
+              {% elsif project.cover %}
+                <div class="project__thumbnail"><img src="{{project.cover}}" alt=""></div>
+              {% endif %}
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+  </article>
+</div>

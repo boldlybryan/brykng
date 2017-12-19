@@ -1,0 +1,229 @@
+.navbar {
+  background-color: $primary-color;
+  width: 100%;
+  @media (min-width: $sm){
+    background-color: transparent;
+    position: absolute;
+  }
+
+  .container {
+    padding-bottom: 0;
+    @media (min-width: $sm){
+      padding-bottom: 1em;
+    }
+  }
+
+  .navbar__logo {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: $white;
+    margin-bottom: 0.50em;
+  }
+
+  .navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .nav__items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    .nav__link {
+      display: inline-block;
+      margin: 0 1em 0.50em 0;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+    }
+
+  }
+
+}
+
+.footer {
+  background-color: $primary-color;
+  color: $white;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1.75em 1em;
+    @media (min-width: $sm){
+      flex-direction: row;
+    }
+  }
+
+  .footer__social {
+
+    @media (min-width: $sm){
+      order: 2;
+    }
+
+    a {
+      text-decoration: none;
+      margin-right: 0.75em;
+
+      @media (min-width){
+        margin-right: 1.33em;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      svg use {
+        transition: fill 200ms linear;
+        transform: scale(0.75);
+
+        @media (min-width: $sm){
+          transform: scale(1);
+        }
+
+      }
+
+      &:hover {
+        svg use {
+          fill: $accent-color;
+          transition: fill 200ms linear; 
+        }
+      }
+
+    }
+
+    .username {
+      display: none;
+    }
+
+  }
+
+  .footer__info {
+    text-align: center;
+    @media (min-width: $sm){
+      text-align: left;
+    }
+
+  }
+
+}
+
+.hero {
+
+  background-size: cover;
+
+  h1 {
+    word-break: break-word;
+  }
+
+  p {
+    @media (min-width: $md){
+      max-width: 26.67em;
+    }
+  }
+
+}
+
+.hero--primary {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.card {
+  background-color: $silver;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 8px 8px 32px $secondary-color;
+  cursor: pointer;
+  transition: box-shadow 200ms linear; 
+
+  &:hover {
+    box-shadow: none;
+    transition: box-shadow 200ms linear;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .card__content {
+    padding: 1.0em;
+    font-weight: normal;
+
+    .post__date {
+      font-size: 0.75em;
+    }
+
+    .post__title {
+      padding: 0.0625em 0;
+    }
+
+  }
+
+}
+
+.form__contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em 0;
+
+  fieldset {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    @media (min-width: $md){
+      width: 32%;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.25em;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.75em;
+      margin-bottom: 2em;
+      font-size: 1em;
+      font-family: inherit;
+    }
+
+    &:last-of-type {
+      width: 100%;
+    }
+
+  }
+
+  input[name="_gotcha"]{
+    display: none;
+  }
+
+  button {
+    background-color: $accent-color;
+    color: $white;
+    border: 1px solid $accent-color;
+    padding: 1em 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+}
