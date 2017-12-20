@@ -21,7 +21,7 @@ section {
 
 section:first-of-type {
   padding-top: 0;
-  
+
   @media (min-width: $sm){
     padding-top: 3.33em;
   }
@@ -208,7 +208,7 @@ section:first-of-type {
 	img {
 		object-fit: cover;
 		width: 100%;
-		min-height: 240px;
+    height: 240px;
 	}
 	
 }

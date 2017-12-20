@@ -14,7 +14,8 @@ layout: default
   <article class="container">
     <p>{{ content }}</p>
     <div class="grid">
-        {% for project in site.projects limit:2 %}
+        {% assign project_list = site.projects | sort: 'year' | reverse %}
+        {% for project in project_list %}
           <article>
             <a href="{{ project.url | relative_url }}">
               <div class="project__info">

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: case_study
 title:  Loan Officer Profiles
 client: Flagstar Bank
 year:   2016
@@ -7,22 +7,4 @@ categories: jekyll update
 cover: 
 thumbnail: /images/portfolio/flagstar-loan-officers/flagstar-lo-960.png
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Flagstar Bank has over 200 loan officers that work hard to get customers into the home of their dreams. Our task was to build an application for these employees to have their own profiles on Flagstar.com. My job was to create of a template for the profiles and a invent a CSS library for our responsive site. I'm glad to say that this project was a success! The loan officers can now interact with customers in ways that were impossible before.
