@@ -13,7 +13,7 @@ layout: default
       <h2>Selected Work</h2>
       <div class="grid">
         {% assign project_list = site.projects | sort: 'year' | reverse %}
-        {% for project in project_list %}
+        {% for project in project_list limit: 2%}
           <article>
             <a href="{{ project.url | relative_url }}">
               <div class="project__info">

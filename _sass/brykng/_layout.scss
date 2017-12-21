@@ -121,6 +121,10 @@ section:first-of-type {
     }
   }
 
+  .project__thumbnail img {
+    object-fit: cover;
+  }
+
   article .project__info {
     visibility: hidden;
     opacity: 0;
