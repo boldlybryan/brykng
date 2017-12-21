@@ -3,6 +3,7 @@ layout: case_study
 title:  Loan Officer Profiles
 client: Flagstar Bank
 year:   2016
+source: https://www.flagstar.com/ckemp
 categories: jekyll update
 cover: 
 thumbnail: /images/portfolio/flagstar-loan-officers/flagstar-lo-960.png

@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-subtitle: testing subtitles
+title: About me
 permalink: /about/
 order: 2
 ---
