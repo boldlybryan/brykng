@@ -34,6 +34,7 @@ plugins:
 collections:
   projects:
     output: true
+    permalink: /:collection/:title.html
 
 permalink: /blog/:title.html
 
