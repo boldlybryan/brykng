@@ -4,7 +4,7 @@
   padding: 1em;
 }
 
-section {
+section, .hero {
   padding: 1.0em 0;
 	@media (min-width: $md){
 		padding: 2.0em 0;
@@ -19,7 +19,7 @@ section {
 	
 }
 
-section:first-of-type {
+.hero {
   padding-top: 0;
 
   @media (min-width: $sm){

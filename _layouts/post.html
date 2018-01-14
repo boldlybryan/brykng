@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <section id="intro" class="hero hero--primary" {% if page.cover %}style="background-image: url('{{page.cover}}')"{% endif %}>
+  <header id="intro" class="hero hero--primary" {% if page.cover %}style="background-image: url('{{page.cover}}')"{% endif %}>
     <div class="container">
       <h1 class="title" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="subtitle">
@@ -15,7 +15,7 @@ layout: default
           {% endif %}
         </p>
     </div>
-  </section>
+  </header>
 
   <article class="container" itemprop="articleBody">
     {% if page.source %}

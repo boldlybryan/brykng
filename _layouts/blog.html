@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div id="blog"> 
-  <section id="intro" class="hero hero--primary">
+  <header id="intro" class="hero hero--primary">
     <div class="container">
       <h1 class="title">{{ page.title | escape }}</h1>
       {% if page.subtitle %}
         <p class="subtitle">{{page.subtitle}}</p>
       {% endif %}
     </div>
-  </section>
+  </header>
   <article class="container">
     {% include blog-index.html %}    
   </article>
