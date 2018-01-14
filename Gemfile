@@ -24,3 +24,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Open graph and twitter cards
 gem 'jekyll-seo-tag'
+
+# Github pages
+gem "github-pages", group: :jekyll_plugins
