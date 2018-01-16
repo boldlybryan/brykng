@@ -10,10 +10,10 @@ About a month ago, I launched a redesigned version of this very website. Previou
 I ran my site with Jekyll for a couple of years in 2015 and 2016. I don't really remember why I left. As best as I can remember, I just felt like the blogging workflow was a bit cumbersome. I was inexperienced at the time and never able to figure out a good deployment solution. So, I resorted to running builds locally and then uploading changes via FTP to my server. But this is no longer the case, as I've figured out this insanely good set-up for running my website.
 
 What you'll need:
-* Local installation of Jekyll
+* Local installation of [Jekyll](https://jekyllrb.com)
 * Comportable using a command line interface
-* A GitHub, GitLab, or Bitbucket account (Can also use self-hosted git repository)
-* A free Netlify account
+* A [GitHub](https://github.com), GitLab, or Bitbucket account (Can also use self-hosted git repository)
+* [A free Netlify account](https://netlify.com)
 
 First things first, you're going to need a local instance of Jekyll. It's built on Ruby, so you're going to need that installed too before we can create a website. If you don't have it, I suggest googling `Install Ruby on {insert operating system here}`. Seriously, there are so many ways to install and manage Ruby, with different nuances depending on your OS. I'm using Bash on Windows inside Windows 10 and use rvm for installing Ruby. When in doubt, you can always hop onto the command line and type `ruby -v` to check if you have it, and if you do what version you have. As of January 2018, Jekyll needs Ruby 2.2.5 or above. Also, check to make sure you have GCC and Make installed, per the Jekyll docs.
 
