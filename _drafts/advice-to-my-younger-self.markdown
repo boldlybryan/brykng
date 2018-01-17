@@ -2,6 +2,7 @@
 * Be open to new things and new ideas. Never, ever write something off before giving it an honest chance. You'll never know for sure until you tried.
 * Have no regrets, and don't worry about having them.
 * Be social. You have immense opportunities to meet new people
+* Be patient. Things don't happen overnight. Also, stick with things even when you're not sure about them.
 * You can work til your dead
 * Embrace every challenge that comes your way, however boring or insignificant it may seem.
 
