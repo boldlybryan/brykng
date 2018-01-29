@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Bryan King | Web designer and developer | Cincinnati, Ohio
+logo: brykng # this is what shows in the navbar and links back home
 email: bpking15@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Bryan King is a front-end web developer and designer living in Cincinnati, OH. He helps businesses build highly usable, accessible, and intuitive experiences for the internet.
