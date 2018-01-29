@@ -5,5 +5,6 @@
 * Be patient. Things don't happen overnight. Also, stick with things even when you're not sure about them.
 * You can work til your dead
 * Embrace every challenge that comes your way, however boring or insignificant it may seem.
+* Don't be afraid to ask questions and ask for help
 
 This all goes without saying that I couldn't have asked for things to go as well as they have. I'm incredibly lucky for things to worked out as they had. I do have a few things I'd done differently, but I'd never take back anything I've done.
