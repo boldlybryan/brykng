@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "It's been a bad month"
-date:   2018-02-19 20:00:00 -0500
-thumbnail: /images/posts/been-a-bad-month.jpeg
+date:   2018-02-19 19:00:00 -0500
+thumbnail: /images/posts/been-a-bad-month.jpg
 preview: Vacation and the flu ruined me.
 ---
 Just about a month ago I was getting ready for a week long cruise vacation through some of the eastern Carribbean islands. It was my first cruise, and it went much better than I'd anticipated. Other than rough seas the final day, I enjoyed it a ton. Nothing better than a week spent in the sunshine and warm weather during the cold, gloomy days of winter in the midwest. But it wasn't all sunshine and butterflies.
