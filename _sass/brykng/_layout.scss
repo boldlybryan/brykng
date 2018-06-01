@@ -206,19 +206,20 @@ section, .hero {
   
   .grid {
     grid-row-gap: 2em;
+    margin: 0 -1em;
   }
 
   @media (min-width: $sm){
     .grid {
       grid-template-columns: 1fr 1fr;
-      grid-column-gap: 4%;
+      grid-column-gap: 1em;
     }
   }
 
   @media (min-width: $lg){
     .grid {
       grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 4%;
+      grid-column-gap: 1em;
     }
   }
 
