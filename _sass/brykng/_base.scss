@@ -36,6 +36,12 @@ main img {
   //box-shadow: 8px 8px 32px $secondary-color;
 }
 
+mark {
+  background-color: $accent-color;
+  color: $white;
+  padding: 2px;
+}
+
 pre {
 	background-color: $black;
 	color: $white;
