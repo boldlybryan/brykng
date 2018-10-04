@@ -1,10 +1,10 @@
 ---
-layout: post
 title: 'Book Review: The Perfect Pass'
-date: '2017-01-23 17:00:00'
-thumbnail: https://images.unsplash.com/photo-1485313260896-6e6edf486858?auto=format&fit=crop&w=2550&q=80
+date: 2017-01-23 17:00:00 Z
 tags:
 - reading
+layout: post
+thumbnail: https://images.unsplash.com/photo-1485313260896-6e6edf486858?auto=format&fit=crop&w=2550&q=80
 ---
 
 [*The Perfect Pass: American Genius and the Reinvention of Football*](http://a.co/imY1g4u) by S.C. Gwynne was my first pure "pleasure" read of the year. Fresh off of finishing [*7 Habits*](http://blog.brykng.com/book-review-7-habits), I wanted something lighter to read. I breezed through the book in a couple of evenings.

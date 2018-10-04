@@ -1,9 +1,9 @@
 ---
+title: My design and development set-up on Windows 10
+date: 2018-01-14 17:30:10 Z
 layout: post
-title:  "My design and development set-up on Windows 10"
-date: 2018-01-14 12:30:10 -0500
 cover: 
-thumbnail: /images/posts/windows-10.jpg
+thumbnail: "/images/posts/windows-10.jpg"
 preview: 
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: I'm really, really bad at this
-date: '2017-03-31 01:51:58'
+date: 2017-03-31 01:51:58 Z
+layout: post
 thumbnail: https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2550&q=80
 ---
 

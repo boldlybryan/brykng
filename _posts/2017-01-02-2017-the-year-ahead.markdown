@@ -1,7 +1,7 @@
 ---
-layout: post
 title: '2017: The Year Ahead'
-date: '2017-01-02 02:36:07'
+date: 2017-01-02 02:36:07 Z
+layout: post
 thumbnail: https://images.unsplash.com/photo-1488903809927-48c9b4e43700?auto=format&fit=crop&w=1297&q=80
 ---
 

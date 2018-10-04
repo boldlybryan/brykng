@@ -1,11 +1,11 @@
 ---
+title: Flagstar.com redesign
 layout: case_study
-title:  Flagstar.com redesign
 client: Flagstar Bank
-year:   2017
+year: 2017
 source: https://flagstar.com
-cover:
-thumbnail: /images/portfolio/flagstar-redesign/fs-redesign-thumbnail.png
+cover: 
+thumbnail: "/images/portfolio/flagstar-redesign/fs-redesign-thumbnail.png"
 ---
 
 At the beginning of 2017, Flagstar Bank embarked on a journey to completely redesign their website. They had recently undergone a branding overhaul, and needed a site to reflect the new image. As one of two front-end developers on the company's internal web development team, I was very involved in the design process, working with internal marketing partners and a creative agency to flesh out the direction of the new site.

@@ -1,10 +1,11 @@
 ---
+title: '2017: Year in Review'
+date: 2017-12-21 12:00:00 Z
 layout: post
-title:  "2017: Year in Review"
-date: '2017-12-21 12:00:00'
-thumbnail: /images/posts/2017-review.jpg
+thumbnail: "/images/posts/2017-review.jpg"
 preview: It was an unexpected path to the best year yet.
 ---
+
 The past year has been ones for the books. I moved to a new state, got married to the love of my life, and traveled overseas for the first time. It is for sure one of the years I'll remember most as I grow old. I set out with lofty [goals for 2017](/blog/2017-the-year-ahead.html). Along the way, these goals became less and less S.M.A.R.T. as the days passed by. I didn't accomplish any of them, and that's okay with me. I failed, and didn't really learn anything not achieving any of my goals for the year. But as a whole, I’m comfortable saying that I've grown more this year than any other year of my life. More than ever, I feel like I have things "figured out". I might not know the road I'll take to get there, but I know for certain the direction I want to move in. 
 
 ## 2017 Takeaways

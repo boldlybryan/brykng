@@ -1,10 +1,11 @@
 ---
+title: It's been a bad month
+date: 2018-02-20 00:00:00 Z
 layout: post
-title:  "It's been a bad month"
-date:   2018-02-19 19:00:00 -0500
-thumbnail: /images/posts/been-a-bad-month.jpg
+thumbnail: "/images/posts/been-a-bad-month.jpg"
 preview: Vacation and the flu ruined me.
 ---
+
 Just about a month ago I was getting ready for a week long cruise vacation through some of the eastern Caribbean islands. It was my first cruise, and it went much better than I'd anticipated. Other than rough seas the final day, I enjoyed it a ton. Nothing better than a week spent in the sunshine and warm weather during the cold, gloomy days of winter in the midwest. But it wasn't all sunshine and butterflies.
 
 Katie and I both came down with a serious case of the flu the day we got back. It was thoroughly terrible. It was also the first time I had the flu. I'm not the kind of person to have enemies, but even if I did, I wouldn't wish that illness on the worst among them. I've been absolutely out of commission from the day we got back until about 5 days ago. I'd wake up to log on for work, and log off at the end of the day and start sleeping. Every bit of energy I had was going towards fighting of the flu.

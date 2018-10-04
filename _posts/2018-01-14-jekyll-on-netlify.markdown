@@ -1,10 +1,11 @@
 ---
+title: Deploying a Jekyll Site on Netlify
+date: 2018-01-14 19:00:00 Z
 layout: post
-title:  "Deploying a Jekyll Site on Netlify"
-date: 2018-01-14 14:00:00 -0500
-thumbnail: /images/posts/blog-with-jekyll-and-netlify.jpg
+thumbnail: "/images/posts/blog-with-jekyll-and-netlify.jpg"
 preview: Explaining how I created this blog and how it's deployed.
 ---
+
 About a month ago, I launched a redesigned version of this very website. Previously, I'd just had a one page site and then an instance of Ghost running on a subdomain. At first, I tried moving the whole thing to Ghost, but abandoned that idea when I realized that the platform wasn't built for my needs. After that, I tried out GatsbyJS after jumping into React. It's a really great static site generator, but I couldn't help from thinking how I was just reinventing the wheel. That wheel was Jekyll.
 
 I ran my site with Jekyll for a couple of years in 2015 and 2016. I don't really remember why I left. As best as I can remember, I just felt like the blogging workflow was a bit cumbersome. I was inexperienced at the time and never able to figure out a good deployment solution. So, I resorted to running builds locally and then uploading changes via FTP to my server. But this is no longer the case, as I've figured out this insanely good set-up for running my website.

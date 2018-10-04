@@ -1,13 +1,14 @@
 ---
+title: Test post
+date: 2017-12-11 13:30:10 Z
 layout: post
-title:  "Test post"
-date:   2017-12-11 08:30:10 -0500
 cover: https://s3-us-west-2.amazonaws.com/s.cdpn.io/402979/bs-uxe8wu5y-thomas-griesbeck.jpg
-thumbnail:
+thumbnail: 
 source: https://google.com
 sourceTitle: The Goog
 preview: This is just a post for testing out the stylesheet
 ---
+
 ## Heading 2
 
 > "Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo."

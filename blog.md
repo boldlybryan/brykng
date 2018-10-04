@@ -1,6 +1,7 @@
 ---
-layout: blog
 title: Blog
-permalink: /blog/
+permalink: "/blog/"
+layout: blog
 order: 3
 ---
+

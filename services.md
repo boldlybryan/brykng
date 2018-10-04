@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Services
+permalink: "/services/"
+layout: page
 subtitle: I'm here to help!
-permalink: /services/
 ---
+
 More info coming soon!

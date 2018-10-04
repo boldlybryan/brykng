@@ -1,10 +1,10 @@
 ---
-layout: post
 title: 'Book review: "7 Habits"'
-date: '2017-01-21 05:37:27'
-thumbnail: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=2500&q=80
+date: 2017-01-21 05:37:27 Z
 tags:
 - reading
+layout: post
+thumbnail: https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=2500&q=80
 ---
 
 I began reading [*7 Habits of Highly Effective People*](http://a.co/14ELSL3) by Stephen Covey during the last couple of weeks of 2016. I only managed to get about 50 or so pages into it by the end of the year. It was intriguing enough for me to pick it back up at the start of the new year, and I was quickly engrossed in this one.

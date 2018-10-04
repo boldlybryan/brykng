@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About me
-permalink: /about/
+permalink: "/about/"
+layout: page
 order: 2
 ---
 
